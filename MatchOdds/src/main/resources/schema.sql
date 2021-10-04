@@ -122,7 +122,7 @@ CREATE TABLE match_odds.matches (
     match_time time with time zone NOT NULL,
     team_a character varying(80) NOT NULL,
     team_b character varying(80) NOT NULL,
-    sport match_odds.enum_sport NOT NULL
+    sport character varying(1) NOT NULL
 );
 
 
